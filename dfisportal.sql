@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jan 30, 2020 at 01:17 PM
--- Server version: 10.1.43-MariaDB-cll-lve
--- PHP Version: 7.2.7
+-- Host: 127.0.0.1
+-- Generation Time: Dec 11, 2022 at 06:20 PM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tracfiwb_traco`
+-- Database: `dfisportal`
 --
 
 -- --------------------------------------------------------
@@ -1024,6 +1023,29 @@ INSERT INTO `card_print` (`id`, `pin`, `serial`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `categories`
+--
+
+CREATE TABLE `categories` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `full_fees` varchar(100) NOT NULL,
+  `part_fees` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`id`, `name`, `full_fees`, `part_fees`) VALUES
+(1, 'creche', '18500', '500'),
+(2, 'nursery', '21000', '10500'),
+(3, 'toddlers', '19000', '10000'),
+(4, 'basic', '21000', '10500');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `class`
 --
 
@@ -1340,7 +1362,7 @@ CREATE TABLE `employee_data` (
 --
 
 INSERT INTO `employee_data` (`id`, `surname`, `lastname`, `middlename`, `admno`, `gender`, `dob`, `datejoin`, `photo`, `phone`, `email`, `ec`, `ed`, `ep`, `religion`, `marital`, `bg`, `nat`, `qua`, `cv`, `address`, `bank`, `acctname`, `acctno`, `role`, `password`) VALUES
-(1, 'Nze', 'Halford', 'Nnanna', 'nze.halford@gmail.com', '', '', '', '2019-03-21-13-33-325c93caec1d9ffIMG_20181126_104448.jpg', '', '', '', '', '', '', '', '', '', '', '', '                                                                                                    ', '', '', '', 'System Admin', 'a20e49d84889540c2ab75801173ae82a'),
+(1, 'Nze', 'Halford', 'Nnanna', 'myself', '', '', '', '2019-03-21-13-33-325c93caec1d9ffIMG_20181126_104448.jpg', '', '', '', '', '', '', '', '', '', '', '', '                                                                                                    ', '', '', '', 'System Admin', '098f6bcd4621d373cade4e832627b4f6'),
 (3, 'Ogomezie (3A)', 'Edith', 'Ukachi', 'TRACO/97095', 'female', '', 'January 23rd 2016', '5c94b3b4f3791', '08038747644', '', 'Teaching Staff', 'General', 'Teacher', 'christianity', 'married', '', 'Nigerian', 'Bsc', '5c94b3b4f37d1', '                                                                                                    ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (4, 'Anamelechi', 'Chijioke', 'Ezinne', 'TRACO/38274', '', '', '', '5c94b87569b36', '', '', '', '', '', '', '', '', '', '', '5c94b87569b75', '                                                ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (5, 'Onyealusi', 'Patience', 'Uloma', 'TRACO/47621', '', '', '', '5c94b8ee3c0d5', '', '', '', '', '', '', '', '', '', '', '5c94b8ee3c119', '                                                ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
@@ -1350,6 +1372,36 @@ INSERT INTO `employee_data` (`id`, `surname`, `lastname`, `middlename`, `admno`,
 (10, 'Grade 1b', '', '', 'TRACO/32865', '', '', '', '5c94f74f9ca07', '', '', '', '', '', '', '', '', '', '', '5c94f74f9ca4b', '                                                                                                                                                                                                                                                        ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (11, 'Anyanwu', 'Christy', 'Chidinma', 'TRACO/92848', 'female', '', '', '5c94f75a6f57f', '07036366340', '', '', '', '', '', '', '', '', '', '5c94f75a6f5c0', '                                                                                                                                                                                                                                                        ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (13, 'Grade 6', '', '', 'TRACO/40305', '', '', '', '5c950c00d9680', '', '', '', '', '', '', '', '', '', '', '5c950c00d96c7', '                                                ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `finance`
+--
+
+CREATE TABLE `finance` (
+  `id` int(11) NOT NULL,
+  `surname` varchar(100) NOT NULL,
+  `middlename` varchar(100) NOT NULL,
+  `lastname` varchar(100) NOT NULL,
+  `guardians_name` varchar(100) NOT NULL,
+  `guardians_phoneno` varchar(100) NOT NULL,
+  `total_fees` varchar(100) NOT NULL,
+  `amount_paid` varchar(100) NOT NULL,
+  `amount_unpaid` varchar(100) NOT NULL,
+  `term` varchar(100) NOT NULL,
+  `verified` tinyint(1) NOT NULL DEFAULT 0,
+  `transaction_ref` varchar(100) DEFAULT NULL,
+  `transaction_date` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `finance`
+--
+
+INSERT INTO `finance` (`id`, `surname`, `middlename`, `lastname`, `guardians_name`, `guardians_phoneno`, `total_fees`, `amount_paid`, `amount_unpaid`, `term`, `verified`, `transaction_ref`, `transaction_date`) VALUES
+(12, 'Anthony ', 'Prince', 'Izuchukwu', 'Mr/Mrs Anthony ', '08063845999', '18500', '500', '18000', '2', 1, 'SQINFO8564449018198', '0000-00-00'),
+(13, 'Anthony ', 'Prince', 'Izuchukwu', 'Mr/Mrs Anthony ', '08063845999', '18500', '500', '18000', '3', 1, 'SQINFO9667097518023', '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -10345,7 +10397,6 @@ CREATE TABLE `level` (
 --
 
 INSERT INTO `level` (`id`, `level_name`) VALUES
-(1, 'Grade 1'),
 (2, 'Grade 2'),
 (3, 'Grade 3'),
 (4, 'Grade 4'),
@@ -23602,6 +23653,12 @@ ALTER TABLE `card_print`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `class`
 --
 ALTER TABLE `class`
@@ -23629,6 +23686,12 @@ ALTER TABLE `class_pos_temp_2`
 -- Indexes for table `employee_data`
 --
 ALTER TABLE `employee_data`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `finance`
+--
+ALTER TABLE `finance`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -23756,6 +23819,12 @@ ALTER TABLE `card_print`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=148;
 
 --
+-- AUTO_INCREMENT for table `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `class`
 --
 ALTER TABLE `class`
@@ -23784,6 +23853,12 @@ ALTER TABLE `class_pos_temp_2`
 --
 ALTER TABLE `employee_data`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT for table `finance`
+--
+ALTER TABLE `finance`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `generated_result`
