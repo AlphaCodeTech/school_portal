@@ -1,9 +1,9 @@
 <?php
 
-function fetchGuardian($database)
+function fetchStudent($database)
 {
-    $number = $_POST['phoneno'];
-    $student_data = " SELECT * FROM student_data where g_phone = '$number'";
+    $admno = $_POST['regno'];
+    $student_data = " SELECT * FROM student_data where admno = '$admno'";
     $result_student = $database->query($student_data);
 
     echo json_encode($result_student->fetch_assoc());
@@ -57,15 +57,15 @@ function saveTransaction($database)
     $surname        = $_POST['surname'];
     $middlename    = $_POST['middlename'];
     $lastname      = $_POST['lastname'];
-    $guardian_name  = $_POST['guardian_name'];
-    $guardians_phoneno = $_POST['guardians_phoneno'];
+    $regno = $_POST['regno'];
+    $clas = $_POST['clas'];
     $total_fees     = $_POST['total_fees'];
     $amount_paid    = $_POST['amount_paid'];
     $amount_unpaid  = $_POST['amount_unpaid'];
     $transaction_date = date('Y-m-d');
 
-    $sql = "INSERT INTO finance(surname, lastname, middlename, guardians_name, guardians_phoneno, total_fees, amount_paid,amount_unpaid,term,transaction_ref,transaction_date) 
-                    VALUES('$surname', '$lastname', '$middlename', '$guardian_name', '$guardians_phoneno', '$total_fees', '$amount_paid', '$amount_unpaid', '$term', '$transaction_ref', '$transaction_date')";
+    $sql = "INSERT INTO finance(surname, lastname, middlename, regno, class, total_fees, amount_paid,amount_unpaid,term,transaction_ref,transaction_date) 
+                    VALUES('$surname', '$lastname', '$middlename', '$regno', '$clas' '$total_fees', '$amount_paid', '$amount_unpaid', '$term', '$transaction_ref', '$transaction_date')";
     if ($database->query($sql)) {
         echo 'success';
     } else {
@@ -110,8 +110,8 @@ if (isset($_POST['action'])) {
     require_once('database.php');
 
     switch ($_POST['action']) {
-        case 'getGuardian':
-            fetchGuardian($database);
+        case 'getStudent':
+            fetchStudent($database);
             break;
         case 'getTerms':
             fetchTerms($database);

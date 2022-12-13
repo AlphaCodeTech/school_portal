@@ -372,13 +372,14 @@
 
             <div class="row">
               <div class="col-lg-6">
-                <label for="guardians_phoneno">Guardian Phone Number</label>
-                <input type="text" id="guardians_phoneno" class="form-control" placeholder="Enter phone number first" required /><br />
+                <label for="regno">Admission Number</label>
+                <input type="text" id="regno" class="form-control" placeholder="Enter student admission number" required /><br />
               </div>
               <div class="col-lg-6">
-                <label for="g_name">Guardian Name</label>
-                <input type="text" id="g_name" class="form-control" disabled /><br />
+                <label for="clas">Class</label>
+                <input type="text" id="clas" class="form-control" placeholder="Class" disabled /><br />
               </div>
+  
             </div>
             <div class="row">
               <div class="col-lg-6">
@@ -507,7 +508,8 @@
           let middle_name = $("#middle_name").val();
           let last_name = $("#last_name").val();
           let guardian_name = $("#g_name").val();
-          let guardians_phoneno = $("#guardians_phoneno").val();
+          let regno = $("#regno").val();
+          let clas = $("#clas").val();
           let total_fees = $("#total_fees").val();
           let amount_paid = $("#amount_paid").val();
           let amount_unpaid = $("#amount_unpaid").val();
@@ -521,7 +523,8 @@
               middlename: middle_name,
               lastname: last_name,
               guardian_name: guardian_name,
-              guardians_phoneno: guardians_phoneno,
+              regno: regno,
+              clas: clas,
               total_fees: total_fees,
               amount_paid: amount_paid,
               amount_unpaid: amount_unpaid,

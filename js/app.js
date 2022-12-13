@@ -1,18 +1,18 @@
 $(document).ready(function () {
-  $("#guardians_phoneno").keyup(function () {
+  $("#regno").keyup(function () {
     //Read the fields
     let number = $(this).val();
     $.ajax({
       type: "POST",
       url: "process/ajax.php",
       data: {
-        phoneno: number,
-        action: "getGuardian",
+        regno: number,
+        action: "getStudent",
       },
       success: function (result) {
         // console.log(result);
         let data = JSON.parse(result);
-        $("#g_name").val(data.g_surname);
+        $("#clas").val(data.class);
         $("#surname").val(data.surname);
         $("#middle_name").val(data.middlename);
         $("#last_name").val(data.lastname);

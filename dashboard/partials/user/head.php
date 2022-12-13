@@ -11,7 +11,7 @@ if(strlen( !$_SESSION['sd']))
 ?>
  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Divine Favour International Schools</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="../resources/mdi/css/materialdesignicons.min.css">
