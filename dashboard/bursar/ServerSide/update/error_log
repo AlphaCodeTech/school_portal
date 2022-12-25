@@ -1,0 +1,64 @@
+[31-Jul-2019 04:45:43 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 04:45:43 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 04:50:17 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 04:50:17 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 05:17:01 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 05:17:01 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 05:40:12 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 05:40:12 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:00:24 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:00:24 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:03:30 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:03:30 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:25 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:25 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:26 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:27 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:04:27 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:04:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:05:24 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:05:24 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:12:31 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:12:31 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:12:32 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:12:32 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:12:38 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:12:38 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:13:27 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:13:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:13:38 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:13:38 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:13:44 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:13:44 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:14:12 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:14:15 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:14:15 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:15:27 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:15:27 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:20:54 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:20:54 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:21:00 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:21:00 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:21:07 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:21:07 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:21:10 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:21:10 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:21:15 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:21:15 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16
+[31-Jul-2019 06:21:15 America/New_York] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/connect/db.php on line 6
+[31-Jul-2019 06:21:15 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sjcmzkkf/owalla.sjcmsportal.com/user/ServerSide/update/update_live_result.php on line 16

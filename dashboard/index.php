@@ -1,4 +1,4 @@
 <?php
 
-    header("Location: ../index.html#loginForm");
+    header("Location: ../index.php#loginForm");
     exit(0);
