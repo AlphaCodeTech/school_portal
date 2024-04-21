@@ -87,4 +87,3 @@ $pdf->AddPage('P','Legal',0);
 $pdf->headerTable();
 $pdf->viewTable($conn);
 $pdf->Output();
-?>

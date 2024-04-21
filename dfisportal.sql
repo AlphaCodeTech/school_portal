@@ -1,16 +1,4 @@
 -- phpMyAdmin SQL Dump
-<<<<<<< HEAD
--- version 4.8.3
--- https://www.phpmyadmin.net/
---
--- Host: localhost:3306
--- Generation Time: Jan 30, 2020 at 01:17 PM
--- Server version: 10.1.43-MariaDB-cll-lve
--- PHP Version: 7.2.7
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-=======
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
@@ -20,7 +8,6 @@ SET AUTOCOMMIT = 0;
 -- PHP Version: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
->>>>>>> origin/dev
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -44,11 +31,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `archive`
 --
 
-CREATE TABLE `archive` (
-  `id` int(11) NOT NULL,
-  `surname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
-  `middlename` varchar(255) NOT NULL,
   `admno` varchar(255) NOT NULL,
   `gender` varchar(255) NOT NULL,
   `dob` varchar(255) NOT NULL,
