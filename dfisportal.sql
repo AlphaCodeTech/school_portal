@@ -18,7 +18,11 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
+<<<<<<< HEAD
+-- Database: `tracfiwb_traco`
+=======
 -- Database: `dfisportal`
+>>>>>>> origin/dev
 --
 
 -- --------------------------------------------------------
@@ -27,11 +31,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `archive`
 --
 
-CREATE TABLE `archive` (
-  `id` int(11) NOT NULL,
-  `surname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
-  `middlename` varchar(255) NOT NULL,
   `admno` varchar(255) NOT NULL,
   `gender` varchar(255) NOT NULL,
   `dob` varchar(255) NOT NULL,
@@ -1023,6 +1023,8 @@ INSERT INTO `card_print` (`id`, `pin`, `serial`) VALUES
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
+=======
 -- Table structure for table `categories`
 --
 
@@ -1046,6 +1048,7 @@ INSERT INTO `categories` (`id`, `name`, `full_fees`, `part_fees`) VALUES
 -- --------------------------------------------------------
 
 --
+>>>>>>> origin/dev
 -- Table structure for table `class`
 --
 
@@ -1362,7 +1365,11 @@ CREATE TABLE `employee_data` (
 --
 
 INSERT INTO `employee_data` (`id`, `surname`, `lastname`, `middlename`, `admno`, `gender`, `dob`, `datejoin`, `photo`, `phone`, `email`, `ec`, `ed`, `ep`, `religion`, `marital`, `bg`, `nat`, `qua`, `cv`, `address`, `bank`, `acctname`, `acctno`, `role`, `password`) VALUES
+<<<<<<< HEAD
+(1, 'Nze', 'Halford', 'Nnanna', 'nze.halford@gmail.com', '', '', '', '2019-03-21-13-33-325c93caec1d9ffIMG_20181126_104448.jpg', '', '', '', '', '', '', '', '', '', '', '', '                                                                                                    ', '', '', '', 'System Admin', 'a20e49d84889540c2ab75801173ae82a'),
+=======
 (1, 'Nze', 'Halford', 'Nnanna', 'myself', '', '', '', '2019-03-21-13-33-325c93caec1d9ffIMG_20181126_104448.jpg', '', '', '', '', '', '', '', '', '', '', '', '                                                                                                    ', '', '', '', 'System Admin', '098f6bcd4621d373cade4e832627b4f6'),
+>>>>>>> origin/dev
 (3, 'Ogomezie (3A)', 'Edith', 'Ukachi', 'TRACO/97095', 'female', '', 'January 23rd 2016', '5c94b3b4f3791', '08038747644', '', 'Teaching Staff', 'General', 'Teacher', 'christianity', 'married', '', 'Nigerian', 'Bsc', '5c94b3b4f37d1', '                                                                                                    ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (4, 'Anamelechi', 'Chijioke', 'Ezinne', 'TRACO/38274', '', '', '', '5c94b87569b36', '', '', '', '', '', '', '', '', '', '', '5c94b87569b75', '                                                ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (5, 'Onyealusi', 'Patience', 'Uloma', 'TRACO/47621', '', '', '', '5c94b8ee3c0d5', '', '', '', '', '', '', '', '', '', '', '5c94b8ee3c119', '                                                ', '', '', '', 'Teacher', '5f4dcc3b5aa765d61d8327deb882cf99'),
@@ -1376,6 +1383,8 @@ INSERT INTO `employee_data` (`id`, `surname`, `lastname`, `middlename`, `admno`,
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
+=======
 -- Table structure for table `finance`
 --
 
@@ -1406,6 +1415,7 @@ INSERT INTO `finance` (`id`, `surname`, `middlename`, `lastname`, `guardians_nam
 -- --------------------------------------------------------
 
 --
+>>>>>>> origin/dev
 -- Table structure for table `generated_result`
 --
 
@@ -10397,6 +10407,10 @@ CREATE TABLE `level` (
 --
 
 INSERT INTO `level` (`id`, `level_name`) VALUES
+<<<<<<< HEAD
+(1, 'Grade 1'),
+=======
+>>>>>>> origin/dev
 (2, 'Grade 2'),
 (3, 'Grade 3'),
 (4, 'Grade 4'),
@@ -23653,12 +23667,15 @@ ALTER TABLE `card_print`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
+=======
 -- Indexes for table `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
 --
+>>>>>>> origin/dev
 -- Indexes for table `class`
 --
 ALTER TABLE `class`
@@ -23689,12 +23706,15 @@ ALTER TABLE `employee_data`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
+=======
 -- Indexes for table `finance`
 --
 ALTER TABLE `finance`
   ADD PRIMARY KEY (`id`);
 
 --
+>>>>>>> origin/dev
 -- Indexes for table `generated_result`
 --
 ALTER TABLE `generated_result`
@@ -23819,12 +23839,15 @@ ALTER TABLE `card_print`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=148;
 
 --
+<<<<<<< HEAD
+=======
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+>>>>>>> origin/dev
 -- AUTO_INCREMENT for table `class`
 --
 ALTER TABLE `class`
@@ -23855,12 +23878,15 @@ ALTER TABLE `employee_data`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
+<<<<<<< HEAD
+=======
 -- AUTO_INCREMENT for table `finance`
 --
 ALTER TABLE `finance`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
+>>>>>>> origin/dev
 -- AUTO_INCREMENT for table `generated_result`
 --
 ALTER TABLE `generated_result`
